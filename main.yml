@@ -1,0 +1,7 @@
+---
+# file: create_lxc.yml
+
+- hosts: psql
+  remote_user: root
+  roles:
+  - ansible-role-postgresql
